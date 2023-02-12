@@ -11,14 +11,6 @@ For help getting started with Flutter development, view the
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-## Assets
-
-The `assets` directory houses images, fonts, and any other files you want to
-include with your application.
-
-The `assets/images` directory contains [resolution-aware
-images](https://flutter.dev/docs/development/ui/assets-and-images#resolution-aware).
-
 ## Localization
 
 This project generates localized messages based on arb files found in
@@ -61,12 +53,14 @@ Now follow the steps to achieve what we want
 
 ```
 Create following files
-1. sample_model.dart
-2. sample_bloc.dart
+1. api_constants.dart
+2. api_interceptors.dart
 3. api_services.dart
-4. api_constants.dart
-5. api_interceptors.dart
-6. json_to_type_converter.dart
+4. json_to_type_converter.dart
+5. sample_bloc.dart
+6. sample_item_list_view.dart
+7. sample_item_model.dart
+8. sample_repository.dart
 ```
 **The contents of above files are in the repo inside demo_files folder**
 
