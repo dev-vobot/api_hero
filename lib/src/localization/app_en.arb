@@ -1,0 +1,6 @@
+{
+  "appTitle": "api_hero",
+  "@appTitle": {
+    "description": "The title of the application"
+  }
+}
